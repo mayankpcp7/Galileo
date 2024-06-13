@@ -1,6 +1,15 @@
 import Footer from "@/components/Footer";
-
+import Header from "@/components/Header";
 
 export default function Home() {
-  return <Footer />;
+
+  return (
+    <>
+      <Header />
+      <div id="footer">
+        <Footer />
+      </div>
+      ;
+    </>
+  );
 }
