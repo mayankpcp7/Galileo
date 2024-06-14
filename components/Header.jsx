@@ -58,21 +58,29 @@ const Header = () => {
       <div className="absolute flex z-[100] items-center right-[-21%] md:right-0 hover:right-0 transition-all duration-300 ease-linear top-[50%] translate-y-[-50%]">
         <div className="bg-white w-[15px] h-[145px] rounded-l-full"></div>
         <div className="backdrop-blur bg-white-opacity-[17%] px-[20px] py-[70px]">
-          <Image
-            src="/assets/images/svg/header/twitter.svg"
-            width={36}
-            height={36}
-            alt="logo"
-            className="mb-7"
-          />
+          <Link href="https://www.twitter.com/">
+            <Image
+              src="/assets/images/svg/header/twitter.svg"
+              width={36}
+              height={36}
+              alt="logo"
+              className="mb-7"
+            />
+          </Link>
           <div className="mb-7">
-            <HeaderDiscord />
+            <Link href="https://www.discord.com/">
+              <HeaderDiscord />
+            </Link>
           </div>
           <div className="mb-7">
-            <HeaderTelegram />
+            <Link href="https://www.telegram.com/">
+              <HeaderTelegram />
+            </Link>
           </div>
           <div className="mb-7">
-            <HeaderLinked />
+            <Link href="https://www.linkedin.com/">
+              <HeaderLinked />
+            </Link>
           </div>
         </div>
       </div>
