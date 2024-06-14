@@ -3,7 +3,7 @@ import Image from "next/image";
 import { SubHeadingBg } from "./common/Icons";
 import Navbar from "./common/Navbar";
 import { HeaderDiscord, HeaderLinked, HeaderTelegram } from "./common/Icons";
-
+import Link from "next/link";
 const videoSources = [
   "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
   "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
